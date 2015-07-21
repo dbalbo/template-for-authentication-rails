@@ -5,3 +5,7 @@ This application was generated with the rails_apps_composer gem:
 https://github.com/RailsApps/rails_apps_composer
 provided by the RailsApps Project:
 http://railsapps.github.io/
+
+
+***Installation NOTES*** had to upgrade to ruby 2.2.2 and run bundle (after gem installing "bundler' first to get it to work
+)
