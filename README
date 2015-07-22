@@ -9,3 +9,15 @@ http://railsapps.github.io/
 
 ***Installation NOTES*** had to upgrade to ruby 2.2.2 and run bundle (after gem installing "bundler' first to get it to work
 )
+speciific instructions: clone this repo to your desktop
+type in the terminal;
+\curl -L https://get.rvm.io | bash -s stable --ruby (this will install both rvm and ruby if yo dont already have it installed)
+then copy/paste the line (without quotes) 'source/Users/Guest/.rvm/scripts/rvm' (**or use your own home and username path on your own computer)
+
+rvm install ruby 2.2.2 (if it just installs 2.2.1 or lower--then you can specify the version you need. this app template needs at least ruby 2.2.2 to work)
+then rake db:create
+rake db:migrate
+
+then enter localhost:3000 in the browser window. 
+
+** all of the gems and rvm installation may take a couple of minutes, OR you can just build it from scratch yourself)
